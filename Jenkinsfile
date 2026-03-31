@@ -6,8 +6,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building...'
-                checkout scm
+                // echo 'Building...'
+                // checkout scm
 
                 echo 'Copy env file...'
                 sh 'cp .env.example .env'
